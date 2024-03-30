@@ -1,0 +1,688 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+:root{
+    --white:#ffffff;
+    --ash:#616161;
+}
+.container{
+    background-image: url(unsplash.jpg);
+    width: 100%;
+    height: 700px;
+    position: relative;
+   background-size: cover;
+ 
+}
+
+.container .text{
+    color: var(--white);
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    width: 90%;
+    height:600px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+
+.text .bigtext{
+    font-size: 70px;
+}
+
+.text .smalltext{
+    font-size: large;
+}
+
+.text .btn button{
+    width: 30%;
+    padding: 20px 20px;
+    font-size: large;
+    background-color: #ffffffbe;
+    border-style: none;
+}
+.text .btn button:hover {
+
+    opacity: .7;
+
+}
+
+.icon i{
+    padding: 2px;
+}
+
+.icon i:hover{
+    opacity: .6;
+
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px gray;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    
+    
+}
+
+.logo{
+    margin-left: 20px;
+    letter-spacing: 3px;
+}
+
+.nav ul{
+  padding: 15px;
+}
+
+.nav ul li{
+    display: inline;
+   
+}
+
+.nav ul li a:hover{
+    background-color: burlywood;
+}
+
+.nav ul li a{
+text-decoration: none;
+color: black;
+
+padding: 30px 15px;
+
+}
+
+/*about the company*/
+
+.abouthead{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.keyfeature{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:250px ;
+    padding: 0px 15px;
+   
+}
+
+.responsive,.passion,.design,.support{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-indent: 10px;
+}
+
+
+.keyfeature i{
+    font-size: 60px;
+}
+
+.keyfeature p{
+    font-size: 20px;
+}
+
+/*know design*/
+
+.knowdesign{
+    background-color: var(--ash);
+    height: 500px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    
+    
+}
+
+.knowdesign .text{
+    color: var(--white);
+    width: 45%;
+    height: 50%;
+   padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.knowdesign .image{
+    width: 45%;
+    height: 50%;
+}
+
+
+.knowdesign .text button{
+    padding: 10px 10px;
+    width: 40%;
+    border-style: none;
+    background-color: black;
+    color: #ffffff;
+    font-size: large;
+}
+
+.knowdesign .text button:hover {
+    opacity: .5;
+}
+
+
+/*team*/
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 420px;
+
+    grid-gap: 16px;
+    padding: 0px 15px;
+ 
+}
+
+.architact img {
+    width: 95%;
+    
+}
+
+.architact {
+
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.architact:hover {
+    transform: scale(.96);
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+}
+
+.architact .name,
+.position,
+.details {
+
+}
+
+.architact .name {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.architact .position {
+    font-size: 16px;
+    opacity: .8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.architact button {
+    padding: 15px;
+    border-style: none;
+}
+
+.architact button:hover {
+    background-color: rgb(226, 187, 136);
+}
+
+
+/*project number*/
+
+.projectnumber{
+    margin-top: 50px;
+    width: 100%;
+    height: 150px;
+    background-color: var(--ash);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: x-large;
+   
+    color: #ffffff;
+}
+
+.projectnumber .partner .title{
+    font-size:x-small;
+    margin-top: 5px;
+    
+}
+/*project gallary*/
+
+.projectgallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px,200px;
+    padding: 0px 15px;
+    grid-gap: 10px;
+    
+    margin-bottom: 100px;
+    
+}
+
+.projectgallery div img{
+    width: 100%;
+}
+
+/*skill section*/
+
+.skill{
+    
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   
+   
+    
+    padding: 0px 15px;
+    width: 100%;
+    height:300px ;
+    
+
+   
+}
+
+.skill .skilltext{
+    width:45%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 25px;
+    
+}
+
+.skill .skillpercent{
+    width: 45%;
+    height: 80%;
+}
+
+.skillpercent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.skillname{
+    display: flex;
+    column-gap: 10px;
+}
+
+.skillpercent .percent{
+    display: flex;
+}
+
+.ninety{
+    width: 90%;
+    background-color: rgb(207, 9, 9);
+    text-align: center;
+}
+.eightyfive{
+    width: 85%;
+    background-color: rgb(207, 9, 9);
+    text-align: center;
+}
+.seventyfive{
+    width: 75%;
+    background-color: rgb(207, 9, 9);
+    text-align: center;
+}
+
+/*pricing section*/
+
+.pricing{
+    background-color: var(--ash);
+    height: 1000px;
+    width: 100%;
+    padding-top:50px ;
+    
+}
+
+.pricing .abouthead{
+    color: #ffffff;
+    margin-bottom: 90px;
+}
+
+.pricingcard{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.basic{
+    height:590px ;
+    width:320px ;
+
+
+}
+
+.basic .name{
+    height: 108px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.basic .storage,.emails,.domains,.suport{
+    height:60px ;
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.363);
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.basic .price{
+    height: 134px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.363);
+
+}
+
+.basic .button{
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basic .button button{
+padding: 10px 15px;
+background-color: black;
+color: white;
+border-style: none;
+
+}
+.basic .button button:hover{
+opacity: .5;
+
+}
+
+.pro {
+    height: 590px;
+    width: 320px;
+    transform: scale(1.05);
+
+
+}
+
+.pro .name {
+    height: 128px;
+    background-color: rgb(218, 15, 15);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pro .storage,.emails,.domains,.suport {
+    height: 60px;
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.363);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pro .price{
+    height: 134px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.363);
+
+}
+
+.pro .button{
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro .button button {
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-style: none;
+}
+.pro .button button:hover {
+    
+    background-color: rgb(182, 32, 32);
+    
+}
+
+/*contact section*/
+
+.contact{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    
+    margin-bottom: 100px;
+
+}
+
+.contact input{
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.contact .input{
+    display: flex;
+    flex-direction: column;
+
+}
+.contact button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 20%;
+    border-style: none;
+}
+.contact button:hover{
+    opacity: .7;
+}
+
+
+.contact .img {
+    width: 100%;
+
+}
+
+.contact .img img{
+    width: 100%;
+    filter: grayscale(.7);
+}
+
+/*footer*/
+.footer{
+    background-color: black;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    color: white;
+}
+
+.footer button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.footer button{
+    padding: 10px;
+    border-style: none;
+}
+
+
+
+/*for mobile*/
+@media screen and (max-width:600px) {
+    
+    .container .header .nav {
+        visibility: hidden;
+    }
+
+    .container .btn button{
+        width: 60%;
+        font-size: small;
+    }
+
+    .keyfeature{
+        grid-template-columns: 1fr;
+        margin-bottom: 50px;
+    }
+
+    .keyfeature .responsive,.passion,.design,.support{
+        text-align: center;
+    }
+
+    .knowdesign{
+        height: 500px;
+        
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+
+    .knowdesign .text{
+        width: 90%;
+        height: 40%;
+    }
+    .knowdesign .image{
+        width: 90%;
+        height: 40%;
+    }
+
+    .knowdesign .text button{
+        width: 90%;
+    }
+
+
+    .team{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .projectgallery{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .projectnumber{
+        flex-direction: column;
+        height: 350px;
+        text-align: center;
+        
+    }
+
+    .skill{
+        height: 600px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .skill .skilltext{
+        width: 90%;
+        justify-content: space-around;
+    }
+    .skill .skillpercent{
+        width: 90%;
+    }
+
+    .pricing{
+        
+        height: 2200px;
+        width: 100%;
+    }
+
+    .pricingcard{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        row-gap: 30px;
+        
+    }
+
+    .pricingcard .basic{
+       width:100%
+       
+    }
+
+    .pricingcard .pro .name{
+       
+        height: 108px;
+    }
+
+    .pricingcard .pro{
+        transform: scale(1);
+    }
+
+    .contact .input button{
+        width: 50%;
+    }
+}
+
+
+/*FOR TABLET*/
+
+@media screen and (max-width:900px) {
+    
+    .keyfeature{
+        grid-template-columns: repeat(2,1fr);
+        margin-bottom: 100px;
+    }
+
+    .team{
+        grid-template-columns: repeat(2,1fr);
+        margin-bottom: 100px;
+    }
+
+    .projectgallery{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .skill{
+        margin-bottom: 100px;
+    }
+
+    .pricingcard .basic{
+        width:28% ;
+    }
+
+    .pricingcard .pro{
+        width:30% ;
+    }
+
+}
