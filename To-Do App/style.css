@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:80% ;
+    min-height: 800px;
+    height:fit-content;
+    background-color: rgba(139, 233, 202, 0.719);
+    border: 5px solid rgba(90, 151, 131, 0.719);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container h2{
+    padding: 10px;
+    background-color: bisque;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(202, 149, 84);
+}
+
+.input-container{
+    padding: 20px;
+    border: 2px solid rgba(90, 151, 131, 0.719);
+    width: 80%;
+    border-radius: 5px;
+    margin: 20px auto;
+    height: fit-content;
+}
+
+.input-container input,#btn{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-container #inputtask{
+    width: 80%;
+}
+
+.input-container #btn{
+    border: 2px solid rgb(101, 182, 168);
+}
+
+.input-container #btn:hover{
+    background-color: aqua;
+}
+
+.listContainer ul,.completedtask{
+width:fit-content;
+margin-left: 55px;
+text-align: left;
+}
+
+.listContainer ul li,.completedtask li{
+    margin-top: 10px;
+}
+
+.listContainer,
+.completed{
+    width: 45%;
+    padding: 20px;
+    border: 2px solid rgba(90, 151, 131, 0.719);
+    border-radius: 5px;
+    margin: 20px auto;
+    height: fit-content;
+    
+}
+
+.newcontainer{
+    display: flex;
+}
